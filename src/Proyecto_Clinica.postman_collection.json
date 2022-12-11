@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "26c66982-13ce-4dac-9d11-12915b27f21f",
+		"name": "Proyecto_Clinica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8082/dentists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/patients",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"dentist_id\": 1,\r\n    \"patient_id\": 5,\r\n    \"dateTime\": \"2023-02-05T12:59:11.332\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/patients",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n         \"id\": 12,\r\n        \"name\": \"Carla\",\r\n        \"surname\": \"Flores\",\r\n        \"dni\": 22222222\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/patients",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n         \"id\": 12,\r\n        \"name\": \"Carla Maria\",\r\n        \"surname\": \"Flores\",\r\n        \"dni\": 22222222\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/patients",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \r\n        \"name\": \"Guadalupe\",\r\n        \"surname\": \"Sotelo\",\r\n        \"dni\": 33333333\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/turns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/turns",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"turns"
+					]
+				},
+				"description": "get_turns"
+			},
+			"response": []
+		}
+	]
+}
