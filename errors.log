@@ -1,0 +1,5 @@
+[2022-12-1116:56:04] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "3p"
+[2022-12-1116:57:14] [ ERROR] [GlobalExceptionHandler:16] Request method 'PUT' not supported
+[2022-12-1116:58:11] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "hola"
+[2022-12-1117:06:40] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "3p"
+[2022-12-1117:07:25] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "f"
