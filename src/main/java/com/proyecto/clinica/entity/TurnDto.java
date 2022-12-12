@@ -15,9 +15,6 @@ public class TurnDto {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Dentist getDentist() {
         return dentist;
