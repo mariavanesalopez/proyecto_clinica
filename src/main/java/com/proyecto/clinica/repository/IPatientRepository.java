@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IPatientRepository extends JpaRepository<Patient, Long> {
 
-    @Query("FROM Patients p WHERE p.name = ?1 AND p.surname = ?2")
+    @Query("FROM Patient p WHERE p.name = ?1 AND p.surname = ?2")
     Patient searchPatient(String name, String surname);
 
 }

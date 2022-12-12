@@ -8,8 +8,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IDentistRepository extends JpaRepository<Dentist, Long> {
 
-    @Query("FROM Dentists d WHERE d.name = ?1 AND d.surname = ?2")
-    Dentist searchDentist(String name, String surname);
+    @Query("FROM Dentist d WHERE d.surname = ?1")
+    Dentist searchDentist(String surname);
 
 
 }
